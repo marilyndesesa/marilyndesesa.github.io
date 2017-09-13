@@ -95,12 +95,18 @@ body{
 
 .project{
   padding: 2rem;
-
 }
 
 .project img{
   max-width: 20rem;
   max-height: 20rem;
+  transition: width 2s, height 2s;
+}
+
+.project img:hover{
+  max-height: 24rem;
+  max-width: 24rem;
+  z-index: 1;
 }
 /* Investors & Contact info */
 
