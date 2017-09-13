@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"  name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home-Site</title>
+      <title>DeSesa Web Design</title>
     <link href="Resources/CSS/reset.css" type="text/css" rel="styleshet">
     <link href="Resources/CSS/style.css" type="text/css" rel="stylesheet">
     <link href="Resources/Images/favicon.ico" type="image/x-icon" rel="shortcut icon">
@@ -17,64 +17,108 @@
 
     <!-- Fixed menu -->
           <nav class="main-menu flex">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact</a>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#portfolio">projects</a>
+            <a href="#">resume</a>
+            <a href="#">contact</a>
           </nav>
         </div>
 
         <div class="banner flex container">
           <div class="banner-text">
-            <h1>DeSesa Web Design</h1>
+            <h1>{DeSesa Web Design}</h1>
           </div>
         </div>
 
     </div>
 
     <!-- About Section -->
+    <div class="about">
+      <div class="heading flex container">
+        <h1>{skills}</h1>
+      </div>
+
+        <div class="skills flex container">
+
+          <div class="icon">
+            <img src="Resources/Images/html3.png">
+          </div>
+
+          <div class="icon">
+            <img src="Resources/Images/css.png">
+          </div>
+
+          <div class="icon">
+            <img src="Resources/Images/js.png">
+          </div>
+
+          <div class="icon">
+            <img src="Resources/Images/jquery.png">
+          </div>
+
+          <div class="icon">
+            <img src="Resources/Images/bootstrap.png">
+          </div>
+
+          <div class="icon">
+            <img src="Resources/Images/SQL.png">
+          </div>
+
+        </div>
+
+      </div>
+
 
     <!-- Resume download -->
 
     <!-- Work Examples -->
-    <div class="heading flex container">
-      <h1>Portfolio</h1>
-    </div>
+    <div class="work">
 
-    <div class="work-examples flex container">
+      <div class="heading flex container" id="portfolio">
+        <h1>{portfolio}</h1>
+      </div>
 
-      <div class="project flex">
-        <a href="https://marilyndesesa.github.io/tortoiseshell-optics/" target="_blank">
+      <div class="work-examples flex container">
+
+        <div class="project flex">
+          <a href="https://marilyndesesa.github.io/tortoiseshell-optics/" target="_blank">
           <img src="Resources/Images/tortoiseshell-optics.png">
         </a>
-        <span class="caption"></span>
-      </div>
+        </div>
 
-      <div class="project flex">
-        <a href="https://marilyndesesa.github.io/Secret-Agent-Supply/" target="_blank">
+        <div class="project flex" id="agent">
+          <a href="https://marilyndesesa.github.io/Secret-Agent-Supply/" target="_blank">
           <img src="Resources/Images/secret-agent-supply.png">
-        </a>
-        <span class="caption"></span>
-      </div>
+          </a>
+        </div>
 
-      <div class="project flex">
-        <a href="https://marilyndesesa.github.io/my-times/" target="_blank">
+        <div class="project flex" id="times">
+          <a href="https://marilyndesesa.github.io/my-times/" target="_blank">
           <img src="Resources/Images/my-times.png">
-        </a>
-        <span class="caption"></span>
+          </a>
+        </div>
+
+        <div class="project flex" id="tea">
+          <a href="https://marilyndesesa.github.io/tea-cozy/" target="_blank">
+          <img src="Resources/Images/tea-cozy.png">
+          </a>
+        </div>
+
       </div>
 
-      <div class="project flex">
-        <a href="https://marilyndesesa.github.io/tea-cozy/" target="_blank">
-          <img src="Resources/Images/tea-cozy.png">
-        </a>
-        <span class="caption"></span>
-      </div>
+    </div>
 
     <!-- Investors & Contact info -->
+    <div class="contact flex">
+      <img src="Resources/Images/investors.gif">
+    </div>
 
     <!-- Footer -->
+    <div class="footer flex container">
+      <img src="Resources/Images/desktop.png">
+      <span>&copy; DeSesa Web Design</span>
+    </div>
 
   </body>
 </html>
