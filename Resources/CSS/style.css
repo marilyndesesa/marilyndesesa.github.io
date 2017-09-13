@@ -1,17 +1,112 @@
 body{
-  font-size: 16px;
+  font-size: 14px;
+  background: #E1E4E5;
+  margin: 0;
+  font-family: "Lucida Sans Unicode";
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+
 /* Banner section */
+.banner-image{
+  background-image: url('../Images/Website-Design-Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45rem;
+}
+
+.banner{
+  justify-content: flex-end;
+}
+
+.banner-text{
+  color: white;
+  opacity: .8;
+  margin-top: 14rem;
+  font-size: 1.2rem;
+}
+
+.banner-text:hover{
+  transition:
+}
 
 /* Fixed menu */
+.header{
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+}
+
+.header img{
+  height: 3.2rem;
+  padding-right: 1rem;
+  transition: height 2s, transform 2s;
+}
+
+.header img:hover{
+  height: 3.5rem;
+  transform: rotate(360deg);
+
+}
+
+
+.logo{
+  align-items: center;
+}
+
+.main-menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.main-menu a:hover{
+  color: #eae89e;
+  cursor: pointer;
+}
 
 /* About Section */
 
 /* Locations */
+.state{
+  max-width: 12rem;
+  justify-content: center;
+}
+
+.state img{
+  max-width: 12rem;
+  max-height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.state img:hover{
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+#CA{
+  width: 10rem;
+}
 
 /* Resume download */
 
 /* Work Examples */
 
+
 /* Investors & Contact info */
+
+/* Footer */
