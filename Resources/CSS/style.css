@@ -83,6 +83,30 @@ body{
 
 /* About Section */
 .about{
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.bio{
+  justify-content: center;
+}
+
+.bio img{
+  max-height: 15rem;
+  border-radius: 50%;
+  border: 1px dashed white;
+}
+
+.description{
+  justify-content: center;
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Skill Section */
+.skill-set{
   background: linear-gradient(-90deg, #6f7878, #c7d0c9, #6f7878);
   border-bottom: white 1px dashed;
 }
@@ -106,10 +130,6 @@ body{
 /* Resume download */
 
 /* Work Examples */
-.work{
-  background: linear-gradient(-90deg, #c7d0c9, #6f7878, );
-}
-
 .heading{
   justify-content: center;
 }
@@ -168,7 +188,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: #88918f;
+  background: linear-gradient(-90deg, #6f7878, #c7d0c9, #6f7878);
   box-shadow: 10px 10px 10px black;
   border: 1px dashed white;
   font-size: 1rem;
