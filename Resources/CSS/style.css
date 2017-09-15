@@ -128,6 +128,45 @@ body{
   transform: scale(1.2);
 }
 
+/* Skill Hover text*/
+.icon:hover .image{
+  opacity: 0.3;
+}
+
+.icon:hover .middle{
+  opacity: 1;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.text{
+  background-color: #cad2cb;
+  background-blend-mode: lighten;
+  color: #454a4a;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 25%;
+  opacity: .75;
+}
+
+.image{
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+}
+
+.icon{
+  position: relative;
+}
+
+
 /* Resume download */
 
 /* Work Examples */
