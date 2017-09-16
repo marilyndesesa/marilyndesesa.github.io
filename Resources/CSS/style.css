@@ -108,7 +108,7 @@ body{
 
 /* Skill Section */
 .skill-set{
-  background: linear-gradient(-90deg, #6f7878, #c7d0c9, #6f7878);
+  background: #8C9191;
   border-bottom: white 1px dashed;
 }
 
@@ -216,27 +216,52 @@ body{
 /* Investors & Contact info */
 .contact{
   justify-content: center;
+  align-items: center;
   padding-bottom: 3rem;
+  border-top: 1px dashed white;
+  background: #8C9191;
 }
 
-.contact img{
+.contact-info{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-info img{
+  width: 25%;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.contact a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#investors{
+  justify-content: center;
+}
+
+#investors img{
   border: dashed 1px white;
 }
 
 /* Footer */
 .footer{
   align-items: center;
-  justify-content: center;
   padding: 2rem;
-  background: linear-gradient(-90deg, #6f7878, #c7d0c9, #6f7878);
+  background: #6f7878;
   box-shadow: 10px 10px 10px black;
-  border: 1px dashed white;
+  border-top: 1px dashed white;
   font-size: 1rem;
 }
 
 .footer img{
   height: 3.2rem;
   padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 /* Screen-size Adjustments */
