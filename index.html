@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>DeSesa Web Design</title>
     <meta name="viewport" content="width=device-width, initial-scale: 1.0">
-      <title>DeSesa Web Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:300,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <link href="Resources/CSS/reset.css" type="text/css" rel="styleshet">
     <link href="Resources/CSS/style.css" type="text/css" rel="stylesheet">
     <link href="Resources/Images/favicon.ico" type="image/x-icon" rel="shortcut icon">
@@ -12,16 +16,17 @@
     <!-- Banner section -->
       <div class="banner-image">
         <div class="header container flex">
-          <span class="logo flex"><a href="#"><img src="Resources/Images/desktop.png"></a>
-          DeSesa Web Design</span>
-
-    <!-- Fixed menu -->
-          <nav class="main-menu flex">
-            <a href="#">home</a>
-            <a href="#about">about</a>
-            <a href="#portfolio">projects</a>
-            <a href="https://drive.google.com/file/d/0B8OpEbIpqHj5V0hMM0pkdU1JNVU/view" target="_blank">resume</a>
-            <a href="#contact">contact</a>
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid flex header-nav">
+              <div class="logo flex">< />D.W.D.</div>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="hover-effect"><a href="#">home</a></li>
+                <li class="hover-effect"><a href="#about">about</a></li>
+                <li class="hover-effect"><a href="#portfolio">projects</a></li>
+                <li class="hover-effect"><a href="https://drive.google.com/file/d/0B8OpEbIpqHj5V0hMM0pkdU1JNVU/view" target="_blank">resume</a></li>
+                <li class="hover-effect"><a href="#contact">contact</a></li>
+            </ul>
+          </div>
           </nav>
         </div>
 
@@ -37,7 +42,7 @@
     <div class="about" id="about">
 
       <div class="heading flex container">
-        <h1>{meet the designer}</h1>
+        <h1>< meet the designer /></h1>
       </div>
 
       <div class="bio flex container">
@@ -59,7 +64,7 @@
     <!-- Skill Section -->
     <div class="skill-set">
       <div class="heading flex container">
-        <h1>{skills}</h1>
+        <h1>< skills /></h1>
       </div>
 
         <div class="skills flex container">
@@ -117,36 +122,50 @@
     <div class="work">
 
       <div class="heading flex container" id="portfolio">
-        <h1>{portfolio}</h1>
+        <h1>< portfolio /></h1>
       </div>
 
-      <div class="work-examples flex container">
+      <div class="work-examples container">
 
-        <div class="project flex" id="optics">
+        <div class="row">
+          <div class="col-md-4 col-xs-6 image-container" id="optics">
+            <a href="https://marilyndesesa.github.io/jumpstart/" target="_blank">
+            <img src="Resources/Images/jumpstart.png">
+          </a>
+          </div>
+
+          <div class="col-md-4 col-xs-6 image-container" id="optics">
+            <a href="https://marilyndesesa.github.io/colmar-academy/" target="_blank">
+            <img src="Resources/Images/colmar-academy.png">
+          </a>
+          </div>
+
+        <div class="col-md-4 col-xs-6 image-container" id="optics">
           <a href="https://marilyndesesa.github.io/tortoiseshell-optics/" target="_blank">
           <img src="Resources/Images/tortoiseshell-optics.png">
         </a>
         </div>
 
-        <div class="project flex" id="agent">
+        <div class="col-md-4 col-xs-6 image-container" id="agent">
           <a href="https://marilyndesesa.github.io/Secret-Agent-Supply/" target="_blank">
           <img src="Resources/Images/secret-agent-supply.png">
           </a>
         </div>
 
-        <div class="project flex" id="times">
+        <div class="col-md-4 col-xs-6 image-container" id="times">
           <a href="https://marilyndesesa.github.io/my-times/" target="_blank">
           <img src="Resources/Images/my-times.png">
           </a>
         </div>
 
-        <div class="project flex" id="tea">
+        <div class="col-md-4 col-xs-6 image-container" id="tea">
           <a href="https://marilyndesesa.github.io/tea-cozy/" target="_blank">
           <img src="Resources/Images/tea-cozy.png">
           </a>
         </div>
 
       </div>
+    </div>
 
     </div>
 
@@ -154,14 +173,11 @@
     <div class="contact" id="contact">
 
       <div class="heading flex container" id="portfolio">
-        <h1>{contact}</h1>
+        <h1>< contact /></h1>
       </div>
 
       <div class="contact-info flex">
         <a href="mailto:marilyn.desesa@gmail.com" target="_top"><img src="Resources/Images/email.png"><span> Marilyn.desesa@gmail.com</span></a>
-      </div>
-      <div class="container flex" id="investors">
-        <img src="Resources/Images/investors.gif">
       </div>
 
     </div>
@@ -172,5 +188,10 @@
       <span>&copy; DeSesa Web Design</span>
     </div>
 
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+      <script type="text/javascript" src="resources/js/main.js">
   </body>
 </html>
