@@ -7,6 +7,7 @@ body{
   color: white;
 }
 
+
 .flex{
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +32,6 @@ p{
   background-position: center;
   height: 65rem;
   margin-top: 50px;
-  border-bottom: 1px dashed white;
 }
 
 .banner{
@@ -87,7 +87,8 @@ p{
 }
 .navbar-default .navbar-nav>li>a:hover{
   font-size: 2rem;
-  color: #FFFFCC;
+  color: #ccf8ff;
+  text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00deff, 0 0 70px #00deff, 0 0 80px #00deff, 0 0 100px #00deff;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
@@ -146,11 +147,11 @@ p{
 .about{
   justify-content: center;
   padding-bottom: 2rem;
-  border-bottom: 1px dashed white;
 }
 
 .bio{
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .bio img{
@@ -167,11 +168,19 @@ p{
   text-align: center;
 }
 
+@media only screen and (max-width: 500px){
+  .about{
+    padding: 2rem;
+  }
+  .about h1{
+    text-align: center;
+  }
+}
+
 /* Skill Section */
 .skill-set{
   /*background: #8C9191;*/
   background: #303238;
-  border-bottom: white 1px dashed;
 }
 
 .skills{
@@ -272,7 +281,6 @@ p{
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
-  border-top: 1px dashed white;
   background: #303238;
 }
 
@@ -302,16 +310,15 @@ p{
   padding: 2rem;
   background: #303238;
   box-shadow: 10px 10px 10px black;
-  border-top: 1px dashed white;
+  border-top: 1px solid white;
   font-size: 2.5rem;
   text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00deff, 0 0 70px #00deff, 0 0 80px #00deff, 0 0 100px #ff00de;
   font-family:'Bungee Hairline', cursive;
 }
 
-.footer img{
-  height: 3.2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+#pencil img{
+  padding: 0;
+  height: 2rem;
 }
 
 /* Screen-size Adjustments */
