@@ -23,6 +23,25 @@ p{
   padding-top: 1rem;
 }
 
+@media only screen and (max-width: 930px){
+  .container{
+    max-width: 100%;
+  }
+  .image-container img{
+    max-height: 100% !important;
+  }
+  .logo{
+    display: none;
+  }
+  .header-nav{
+    justify-content: flex-start !important;
+  }
+
+  #tea{
+    top: -24rem;
+  }
+}
+
 
 /* Banner section */
 .banner-image{
@@ -95,17 +114,6 @@ p{
   margin-left: 4rem;
 }
 
-.main-menu a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 1rem;
-}
-
-.main-menu a:hover{
-  cursor: pointer;
-  color: #FFFFCC;
-}
 
 /* menu effects */
 .hover-effect a::before,
@@ -192,7 +200,7 @@ p{
   padding: 2.5rem;
   flex-wrap: wrap;
   transition: all 0.3s;
-  height: 8rem;
+  height: 15rem;
 }
 
 .skills img:hover{
@@ -235,6 +243,11 @@ p{
 
 .icon{
   position: relative;
+}
+
+#small-icon img{
+  height: 13rem;
+  margin-top: 1rem;
 }
 
 
@@ -285,16 +298,14 @@ p{
 }
 
 .contact-info{
-  justify-content: center;
-  align-items: center;
-
+  text-align: center;
 }
 
 .contact-info img{
-  width: 25%;
-  vertical-align: middle;
-  padding: 1rem;
+  max-height: 10rem;
+  padding: 2rem;
 }
+
 
 .contact a{
   text-decoration: none;
