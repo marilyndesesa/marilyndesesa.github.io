@@ -7,7 +7,6 @@ body{
   color: white;
 }
 
-
 .flex{
   display: flex;
   flex-wrap: wrap;
@@ -21,6 +20,10 @@ body{
 p{
   font-size: 1.5rem;
   padding-top: 1rem;
+}
+
+.mobile-only{
+  display: none;
 }
 
 @media only screen and (max-width: 930px){
@@ -45,6 +48,15 @@ p{
 @media only screen and (max-width: 767px){
   #tea{
     top: -0 !important;
+  }
+  nav{
+    display: none;
+  }
+  .banner-image{
+    margin-top: 0!important;
+  }
+  .mobile-only{
+    display: inline;
   }
 }
 
@@ -188,6 +200,11 @@ p{
   .about h1{
     text-align: center;
   }
+
+  .icon
+  .icon:hover{
+    display: none;
+  }
 }
 
 /* Skill Section */
@@ -237,39 +254,6 @@ p{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/*
-.icon:hover .image{
-  opacity: 0.3;
-}
-
-.icon:hover .middle{
-  opacity: 1;
-}
-
-.middle{
-  transition: .5s ease;
-  opacity: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.text{
-  background-color: #cad2cb;
-  background-blend-mode: lighten;
-  color: #454a4a;
-  padding: 1rem;
-  font-size: 1.2rem;
-  border-radius: 25%;
-  opacity: .75;
-}
-
-.image{
-  opacity: 1;
-  transition: .5s ease;
-  display: block;
-}*/
 
 .icon{
   position: relative;
@@ -409,11 +393,8 @@ p{
   }
 
   .contact img{
-    width: 75%;
-    height: 75%;
+    width: auto;
+    height: auto;
   }
 
-  .icon{
-    max-width: 8rem;
-  }
 }
