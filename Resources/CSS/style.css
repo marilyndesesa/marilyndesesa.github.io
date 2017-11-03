@@ -319,6 +319,10 @@ p{
   text-align: center;
 }
 
+.contact-info div{
+  display: inline-block;
+}
+
 .contact-info img{
   max-height: 10rem;
   padding: 2rem;
