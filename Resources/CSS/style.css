@@ -228,7 +228,8 @@ p{
 .text {
   white-space: nowrap;
   color: #ccf8ff;
-  font-size: 20px;
+  font-size: 2rem;
+  font-family: 'Catamaran', sans-serif;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -302,6 +303,11 @@ p{
 .image-container{
   overflow: hidden;
   margin-bottom: 3rem;
+  z-index: 10;
+}
+
+.overflow{
+  overflow: hidden;
 }
 
 .image-container img{
@@ -314,7 +320,6 @@ p{
 .image-container img:hover{
   opacity: 1;
   transform: scale(1.5);
-  overflow: hidden;
 }
 
 
@@ -322,7 +327,7 @@ p{
 .contact{
   justify-content: center;
   align-items: center;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
   background: #303238;
 }
 
