@@ -205,9 +205,12 @@ p{
     text-align: center;
   }
 
-  .icon
   .icon:hover{
     display: none;
+  }
+
+  .contact-info{
+    margin: 0 5rem;
   }
 }
 
