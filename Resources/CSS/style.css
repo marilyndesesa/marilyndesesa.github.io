@@ -1,10 +1,13 @@
 body{
   font-size: 14px;
-  /*background: #6f7878;*/
   background: #303238;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
+}
+
+html{
+  overflow-x: hidden !important;
 }
 
 .flex{
@@ -58,6 +61,7 @@ p{
   .mobile-only{
     display: inline;
   }
+
 }
 
 /* Banner section */

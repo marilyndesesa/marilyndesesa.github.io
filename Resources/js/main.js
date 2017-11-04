@@ -5,6 +5,9 @@ $(document).ready(function() {
       easing: 'ease-in-sine',
       delay: 100,
     });
+    AOS.init({
+      disable: 'mobile'
+    });
 
   var scrollLength = 0
   $(window).scroll(function() {
